@@ -1,0 +1,12 @@
+button{
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgba(132, 199, 236, 0.829);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0px;
+    border-radius: 8px;
+
+
+}
