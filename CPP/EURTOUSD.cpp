@@ -14,6 +14,9 @@ int main(){
 
 
     cout<<"your converted amount is:"<<amounttoconvert*usdtoeuro<<" euros"<<endl;
+    
+
+    
  
 
 
