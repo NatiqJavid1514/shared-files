@@ -37,6 +37,7 @@ int main(){
     
     vector3.at(0).at(0)=1000;
     cout<< vector3.at(0).at(0)<<endl;
+    cout<<vector3.at(0).at(1)<<endl;
 
 
 

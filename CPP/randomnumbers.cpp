@@ -12,6 +12,7 @@ int main(){
     
 
     // we need to seed the random multiplier so that we dont get the same result//
+    srand(time(nullptr));
 
     cout<<"RAND-MAX on my system is: "<<RAND_MAX<<endl;
     for(int i{1}; i<count; i++){

@@ -32,11 +32,11 @@ int main(){
 
     int test_scores[] {10,20,30,40,50};
 
-    // cout<<test_scores[0]<<endl;
+    cout<<test_scores[0]<<endl;
 
-    // cin>>test_scores[0];
+    cin>>test_scores[0];
 
-    // cout<<test_scores[0]<<endl;
+    cout<<test_scores[0]<<endl;
 
 
     cout<<test_scores<<endl;
