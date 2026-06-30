@@ -1,12 +1,18 @@
 #include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 
 int main(){
-    int favorite_number;
-    std::cout<<"What is your favorite number:";
-    std::cin>>favorite_number;
-    std::cout<<"Amazing! That's my favorite number too" <<std::endl;
+    int arr[5] {10,20,30,40,50};
+    int *ptr;
+    ptr=arr;
+    for(int i=0;i<5;i++){
+        cout<<*ptr<<endl;
+        ptr++;
+    }
+    
 
-    return 0;
 
 
 }
