@@ -1,31 +1,31 @@
 class FIRSTPROGRAM{
     public static void main(String[] args) {
-        System.out.println("My Name is Natiq Javid\n");
-        int x=10,y=20,z=40;
-        System.out.println(x);
-        if(x>y&&x>z){
-            System.out.println("The greatest number among x y z is:x ");
+        // System.out.println("My Name is Natiq Javid\n");
+        // int x=10,y=20,z=40;
+        // //System.out.println(x);
+        // if(x>y&&x>z){
+        //     System.out.println("The greatest number among x y z is:x ");
 
 
 
 
-        }
-        else if(y>z){
-            System.out.println("The greatest number is y");
-        }
-        else{
-            System.out.println("Z is the greatest number");
-        }
+        // }
+        // else if(y>z){
+        //     System.out.println("The greatest number is y");
+        // }
+        // else{
+        //     System.out.println("Z is the greatest number");
+        // }
         System.out.println("\n");
 
-        System.out.println("The integers x y and z are: "+x +" "+y+" " +z);
+        // System.out.println("The integers x y and z are: "+x +" "+y+" " +z);
 
-        int a,b,sum;
-        a=1;
-        b=2;
-        sum=a+b;
+        // int a,b,sum;
+        // a=1;
+        // b=2;
+        // sum=a+b;
 
-        System.out.println("Sum is: " +sum);
+        // System.out.println("Sum is: " +sum);
         int n=55;
         int flag=0;
         int i;
@@ -34,7 +34,7 @@ class FIRSTPROGRAM{
                 flag=1;
             }
             else{
-                return;
+                continue;
             }
         }
         if(flag==1){
