@@ -14,9 +14,7 @@ public class employee {
     }
 
     employee(String name, int id, String course, String researchArea) {
-        this.name = name;
-        this.id = id;
-        this.course = course;
+        this(name,id,course);
         this.researchArea = researchArea;
     }
 
