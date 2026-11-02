@@ -1,54 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice 2 HTML</title>
     <style>
-        table{
-            border-spacing: 20px;
-        }
+      table {
+        border-spacing: 20px;
+      }
+      div.sp {
+        color: red;
+      }
+      p.sp {
+        color: green;
+      }
+      .box1{
+        color: green;
+        border: 2px solid black;
+      }
+      .box2{
+        border: inherit;
+      }
     </style>
-
-</head>
-<body>
-    <table border="3px" >
-        <tr>
-            <th style="padding: 2px;">NAME</th>
-            <th>ADDRESS</th>
-            <th>Phone number</th>
-        </tr>
-        <tr>
-            <td colspan="2">Natiq</td>
-            <td>Nowgam</td>
-            
-        </tr>
-        <tr>
-            <td>Babar</td>
-            <td>PEERBAGH</td>
-            <td>6005063669</td>
-        </tr>
-
+  </head>
+  <body>
+    <table border="3px">
+      <tr>
+        <th style="padding: 2px">NAME</th>
+        <th>ADDRESS</th>
+        <th>Phone number</th>
+      </tr>
+      <tr>
+        <td colspan="2">Natiq</td>
+        <td>Nowgam</td>
+      </tr>
+      <tr>
+        <td>Babar</td>
+        <td>PEERBAGH</td>
+        <td>6005063669</td>
+      </tr>
     </table>
     <ol type="I">
-        <li>Nats</li>
-        <li>BATS</li>
-        <li>CATS</li>
-
+      <li>Nats</li>
+      <li>BATS</li>
+      <li>CATS</li>
     </ol>
-    <ul type="square" >
-        <li>CATS</li>
-        <li>RATS</li>
-        <li>HATS</li>
+    <ul type="square">
+      <li>CATS</li>
+      <li>RATS</li>
+      <li>HATS</li>
     </ul>
-    <input type="radio" name="gender" id="name" value="Male">
+    <input type="radio" name="gender" id="name" value="Male" />
     <label for="name">MALE</label>
-    <input type="radio" id="name2" name="gender" value="Female">
+    <input type="radio" id="name2" name="gender" value="Female" />
     <label for="name2">FEMALE</label>
-    <input type="email" id="mail">
-    <label for="mail">Enter Gmail <address></address></label>
-    <input type="tel" id="ph">
+    <input type="email" id="mail" />
+    <label for="mail"
+      >Enter Gmail
+      <address></address
+    ></label>
+    <input type="tel" id="ph" />
     <label for="ph">Phone number</label>
-    
-</body>
+    <div class="sp">Lorem ipsum dolor sit amet.</div>
+    <p class="sp">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
+      ipsa.
+    </p>
+    <div class="box1">
+        <div class="box2">I AM A BIG BOX</div>
+    </div>
+  </body>
 </html>

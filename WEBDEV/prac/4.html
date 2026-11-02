@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handlers Example</title>
+</head>
+<body>
+    <h1>Welcome to the Event Handlers Example</h1>
+    <p id="message"></p>
+     <button id="clickMe">Click Me</button>
+
+    <div id="box"></div>
+     
+
+    <script>
+        // onload event handler
+        window.onload = function() {
+            console.log("The page has loaded!");
+            document.getElementById('message').innerText = "The page has loaded!";
+        };
+
+        // onclick event handler
+        document.getElementById('clickMe').addEventListener('click', function() {
+            console.log("The button has been clicked!");
+            document.getElementById('message').innerText = "The button has been clicked!";
+        });
+        document.getElementById('clickMe').addEventListener('mouseover',function (){
+          document.body.style.backgroundColor="green"
+        });
+        document.getElementById('clickMe').addEventListener('mouseout',function (){
+          document.body.style.backgroundColor="yellow"
+        });
+        document.getElementById("clickMe").addEventListener('keydown',function(){
+            document.getElementById("box").innerText="arey saaalo agaya mai box mai "
+        })
+
+    </script>
+
+   
+
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM and Text Validation</title>
+    <style>
+        .box{
+            margin: 10px;
+            display: flex;
+            
+            
+        }
+        input{
+           margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <div class="box">
+    <form onsubmit="return data()" action="http://127.0.0.1:3000/WEBDEV/prac/index.html?vscode-livepreview=true">
+    <h1>FORM FOR HOSTEL ALLOCATION</h1>
+    <label for="USERNAME">Enter your Name:</label>
+    <input type="text" id="USERNAME">
+    <br>
+    <label for="ph">Enter your Phone number</label>
+    <input type="tel" id="ph">
+     <br>
+    <label for="email">Enter your Email Address</label>
+    <input type="email" id="email" placeholder="xxx@domain.com">
+     <br>
+    <label for="pw">Enter your Password</label>
+    <input type="password" id="pw">
+
+    <br>
+    <input type="submit">
+
+    
+     
+
+
+
+
+
+
+
+
+
+
+    </form>
+    </div>
+    
+</body>
+</html>

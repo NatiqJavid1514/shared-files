@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        form {
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- All elements must be inside a form for the reset/submit buttons to function -->
+    <form action="/submit-destination" method="POST">
+        
+        <!-- Date Input Field -->
+        <div>
+            <label for="appointment-date">Select Date:</label>
+            <input type="date" id="appointment-date" name="appointment_date" required>
+        </div>
+
+        <!-- Dropdown List Options -->
+        <div>
+            <label for="department">Choose Department:</label>
+            <select id="department" name="department">
+                <option value="" disabled selected>-- Please select --</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="pediatrics">Pediatrics</option>
+            </select>
+        </div>
+
+        <!-- Submit and Reset Actions -->
+        <div class="button-group">
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Controls">
+        </div>
+
+    </form>
+
+</body>
+</html>
